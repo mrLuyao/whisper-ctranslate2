@@ -8,7 +8,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name="whisper-ctranslate2",
+    name="whisperctranslate2",
     version="0.1.4",
     description="Whisper command line client that uses CTranslate2",
     long_description=README,
